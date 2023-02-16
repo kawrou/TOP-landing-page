@@ -1,0 +1,36 @@
+.Navbar, footer{
+    background-color: #1F2937;
+
+}
+
+header{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Hero Secondary text, Header Link Text, Footer Text */
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.HeroMainText{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+
+
+.heroImage{
+   
+
+}
+
+div{
+
+}
+
+p{
+
+}
