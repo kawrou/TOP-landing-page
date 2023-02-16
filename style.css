@@ -1,3 +1,7 @@
+body{
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
 
 /* Navbar, Hero Section, Footer, background color */
 header, .HeroSection,footer{
