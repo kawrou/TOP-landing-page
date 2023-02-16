@@ -28,6 +28,16 @@ header, .HeroSection,footer{
     color:#F9FAF8
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerLinks{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
 
 .heroImage{
    
