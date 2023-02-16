@@ -60,6 +60,10 @@ nav{
 }
 
 .heroImage{
+    height: 250px;
+    width: 600px;
+    background-color: #E5E7EB;
+    flex: 0 1 auto;
    
 
 }
