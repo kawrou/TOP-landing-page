@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+h2{
+    font: 36px bolder #1F2937;
+    text-align: center;
+}
 
 /* Navbar, Hero Section, Footer, background color */
 header, .HeroSection,footer{
