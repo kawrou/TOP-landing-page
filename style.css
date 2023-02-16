@@ -17,6 +17,7 @@ header, .HeroSection{
 .HeroSection{
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
 }
 /* Header Logo Text */
 .logo{
@@ -41,6 +42,7 @@ header, .HeroSection{
 
 nav{
     display: flex;
+    justify-content: space-between;
 
 }
 
