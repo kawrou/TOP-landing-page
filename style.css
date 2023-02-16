@@ -1,20 +1,23 @@
-.Navbar, footer{
-    background-color: #1F2937;
 
+/* Navbar, Hero Section, Footer, background color */
+header, footer{
+    background-color: #1F2937;
 }
 
-header{
+/* Header Logo Text */
+.logo{
     font-size: 24px;
     color: #F9FAF8;
 }
 
 /* Hero Secondary text, Header Link Text, Footer Text */
-{
+.headerLinks{
     font-size: 18px;
     color: #E5E7EB;
+    list-style-type: none;
 }
 
-
+/* Hero Main text */ 
 .HeroMainText{
     font-size: 48px;
     font-weight: bolder;
