@@ -76,6 +76,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin: 50px 22%;
 }
 
 .infoCenter{
