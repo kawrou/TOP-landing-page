@@ -4,7 +4,9 @@ body{
 }
 
 h2{
-    font: 36px bolder #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
     text-align: center;
 }
 
