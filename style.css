@@ -68,8 +68,12 @@ nav{
     width: 600px;
     background-color: #E5E7EB;
     flex: 0 1 auto;
-   
+}
 
+.infoContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 div{
