@@ -35,7 +35,7 @@ header, .HeroSection{
 }
 
 /* Hero Secondary text, Header Link Text, Footer Text */
-.headerLinks, .HeroSecondaryText{
+.headerLinks, .HeroSecondaryText, .callToActionText{
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
@@ -115,3 +115,35 @@ nav{
     margin: 0 40px;
     text-align: end;
 }
+
+.FourthSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.callToActionContainer{
+    width: 1000px;
+    height: 150px;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button, .callToActionContainer{
+    background-color: #3882f6;
+}
+
+
+h3, button, footer{
+    color: #F9FAF8;
+}
+
+footer{
+    text-align: center;
+    padding: 36px;
+}
+    
