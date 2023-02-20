@@ -96,10 +96,22 @@ nav{
     border-style: solid;
     border-radius: 10%;
 }
-div{
+
+.ThirdSection{
+    background-color: #E5E7EB;
+    padding: 8% 20%;
 
 }
 
-p{
+.blockQuote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1F2937;
+    margin-bottom: 0;
+}
 
+.quoteReference{
+    margin: 0 40px;
+    text-align: end;
 }
