@@ -12,16 +12,16 @@ h2{
 }
 
 /* Navbar, Hero Section, Footer, background color */
-header, .HeroSection,footer{
+.bg-color-dark-blue{
     background-color: #1F2937;
 }
 
-header, .HeroSection{
+header, .hero-section{
     padding-left: 200px;
     padding-right: 200px;
 }
 
-.HeroSection{
+.hero-section{
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
@@ -36,21 +36,25 @@ header, .HeroSection{
 }
 
 /* Hero Secondary text, Header Link Text, Footer Text */
-.headerLinks, .HeroSecondaryText, .callToActionText{
-    font-size: 18px;
-    color: #E5E7EB;
+
+ul{
     list-style-type: none;
 }
 
+.font-sm-white{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 /* Hero Main text */ 
-.HeroMainText{
+.hero-section__main__header{
     font-size: 48px;
     font-weight: bolder;
     color:#F9FAF8;
     margin: 0;
 }
 
-.HeroMain{
+.hero-section__main{
     flex: 1 1 450px;
 }
 
@@ -60,20 +64,20 @@ nav{
 
 }
 
-.headerLinks{
+.header-link-collection{
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.heroImage{
+.hero-section__image{
     height: 250px;
     width: 600px;
     background-color: #E5E7EB;
     flex: 0 1 auto;
 }
 
-.infoContainer{
+.second-section__container{
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -81,7 +85,7 @@ nav{
     margin: 50px 22% 120px 22%;
 }
 
-.infoCenter{
+.second-section__container__info-center{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +93,7 @@ nav{
     width: 150px;
 }
 
-.roundedBox{
+.box--round{
     height: 150px;
     width: 150px;
     border-width: 3px;
@@ -98,13 +102,13 @@ nav{
     border-radius: 10%;
 }
 
-.ThirdSection{
+.third-section{
     background-color: #E5E7EB;
     padding: 8% 20%;
 
 }
 
-.blockQuote{
+blockquote{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -112,19 +116,19 @@ nav{
     margin-bottom: 0;
 }
 
-.quoteReference{
+.quote-reference{
     margin: 0 40px;
     text-align: end;
 }
 
-.FourthSection{
+.fourth-section{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
 }
 
-.callToActionContainer{
+.sign-up-container{
     width: 1000px;
     height: 120px;
     margin: 50px;
@@ -135,7 +139,7 @@ nav{
     align-items: center;
 }
 
-button, .callToActionContainer{
+button, .sign-up-container{
     background-color: #3882f6;
 }
 
@@ -161,7 +165,7 @@ button{
     flex-shrink: 0;
 }
 
-.SignUpButton2{
+.button--white-border{
     border: 2px solid #F9FAF8;
 }
 
