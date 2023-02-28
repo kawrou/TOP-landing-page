@@ -1,13 +1,21 @@
 /*|| GENERAL STYLES */
 
+/* Read this guide for organizing CSS 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing
+*/
+
 body{
     font-family:Arial, Helvetica, sans-serif; 
     margin: 0;
 }
-
 /*...*/
 
-
+/* Hero Main text */ 
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
 
 h2{
     font-size: 36px;
@@ -17,14 +25,109 @@ h2{
     margin-top: 50px;
 }
 
-/* Navbar, Hero Section, Footer, background color */
+h3{
+    margin-bottom: 5px;
+}
+/*...*/
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/*...*/
+
+ul{
+    list-style-type: none;
+}
+/*...*/
+
+blockquote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1F2937;
+    margin-bottom: 0;
+}
+/*...*/
+
+button{
+    width: 125px;
+    height: 35px;
+    font-size: 19px;
+    border-radius: 5px;
+    border-style: none;
+    flex-shrink: 0;
+}
+/*...*/
+
+footer{
+    text-align: center;
+    padding: 36px;
+}
+/*...*/
+
+
+/* || UTILITIES */
+.font-sm-grey{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.font-color-white{
+    color: #F9FAF8;
+}
+
+.bg-color-grey{
+    background-color: #E5E7EB;
+}
+
+.bg-color-light-blue{
+    background-color: #3882f6;
+}
+
 .bg-color-dark-blue{
     background-color: #1F2937;
 }
 
-header, .hero-section{
-    padding-left: 200px;
-    padding-right: 200px;
+.button--white-border{
+    border: 2px solid #F9FAF8;
+}
+
+.quote-reference{
+    margin: 0 40px;
+    text-align: end;
+}
+
+
+/* || SITEWIDE */
+
+.box--round{
+    height: 150px;
+    width: 150px;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+/* || PAGE */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link-collection{
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
 .hero-section{
@@ -35,44 +138,9 @@ header, .hero-section{
     justify-content: center;
     gap: 50px;
 }
-/* Header Logo Text */
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-/* Hero Secondary text, Header Link Text, Footer Text */
-
-ul{
-    list-style-type: none;
-}
-
-.font-sm-grey{
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-/* Hero Main text */ 
-h1{
-    font-size: 48px;
-    font-weight: bolder;
-    margin: 0;
-}
 
 .hero-section__main{
     flex: 1 1 450px;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.header-link-collection{
-    display: flex;
-    gap: 30px;
-    align-items: center;
 }
 
 .hero-section__image{
@@ -80,6 +148,14 @@ nav{
     width: 600px;
     flex: 0 1 auto;
 }
+
+header, .hero-section{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*...*/
+
 
 .second-section__container{
     display: flex;
@@ -96,34 +172,12 @@ nav{
     text-align: center;
     width: 150px;
 }
-
-.box--round{
-    height: 150px;
-    width: 150px;
-    border-width: 3px;
-    border-color: #3882F6;
-    border-style: solid;
-    border-radius: 10%;
-}
+/*...*/
 
 .third-section{
-    background-color: #E5E7EB;
-    padding: 8% 20%;
-
+   padding: 8% 20%;
 }
-
-blockquote{
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    color:#1F2937;
-    margin-bottom: 0;
-}
-
-.quote-reference{
-    margin: 0 40px;
-    text-align: end;
-}
+/*...*/
 
 .fourth-section{
     display: flex;
@@ -143,43 +197,7 @@ blockquote{
     align-items: center;
 }
 
-
-.bg-color-light-blue{
-    background-color: #3882f6;
-}
-
-
-.font-color-white{
-    color: #F9FAF8;
-}
-
-h3{
-    margin-bottom: 5px;
-}
-
-.callToActionText{
+.call-to-action-text{
     margin-top: 0;
 }
-
-button{
-    width: 125px;
-    height: 35px;
-    font-size: 19px;
-    border-radius: 5px;
-    border-style: none;
-    flex-shrink: 0;
-}
-
-.button--white-border{
-    border: 2px solid #F9FAF8;
-}
-
-footer{
-    text-align: center;
-    padding: 36px;
-}
-
-a{
-    color: inherit;
-    text-decoration: none;
-}
+/*...*/
