@@ -11,8 +11,19 @@
     
     <header class="bg-color-dk-blue">
         <nav>
-            <p class="logo"><a>Header Logo</a></p>
+            <!-- in real life this would be a logo right? but if you were just temporarily place holding with text
+                  it should be <a href="">Header Logo</a> or <a href=""><span>Header Logo</span></a>
+                  in real life it would be <a href=""><img src="TOP.jpg"</a>
 
+                  when making something linkable with an a tag, the a tag goes outside not inside, and a <p> tag would not be suitable
+                    as that is for paragraph and its a block element. As you are nesting inside a inline element it would be span, you can
+                    not use an inline element to wrap a block.
+                    DISCUSS: semantic markup and smells and illegal markup. For e.g never should use an a tag
+                    without an href, etc
+                -->
+            <p class="logo"><a>Header Logo</a></p> 
+                <!-- this is correct what you have done below with the <a> and <li> tags, which may seem confusing based on the comments above
+                    but its because <a> is an inline element and <li> is a block element, so it actually follows that rule -->
             <ul class="header-link-group font-sm-grey">
                 <li><a href="#info">header link one</a></li>
                 <li><a href="#sitequote">header link two</a></li>
@@ -40,6 +51,7 @@
     <section class="second-section">
         <h2>Some Random Information</h2>
         <div class="second-section__container">
+            <!-- in theory this is a repeated list, so actually a <ul> would be appropriate here -->
             <div class="second-section__container__info-center">
                 <div class="box--round"></div>
                 <p>this is some subtext under an illustration or image</p>
@@ -67,6 +79,7 @@
             Maybe it's just filling up space, or maybe people will actually read it.
             Who knows? All I know is that it looks nice.
         </blockquote>
+        <!-- arguable whether this should be a p tag, h6 tag or a span, but not bad overall just a discussion point -->
         <p class="quote-reference">-Thor, God of Thunder</p>
     </section>
 
@@ -87,6 +100,7 @@
 
 
     <section>
+        <!-- <footer> would actually be enough no need for <section> -->
         <footer class="bg-color-dk-blue font-color-white">Copyright The Odin Project 2021</footer>
     </section>
 </body>
